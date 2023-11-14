@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    max-width: 1200px;
+}
+h1, h2, p{
+    text-align: center;
+    font-family: 'Vast Shadow', serif;
+}
+.container-item{
+    width: 450px;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.container-item img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px 0px 10px 0px;
+   
+}
+
+
+   
+
+
+
+
