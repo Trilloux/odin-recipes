@@ -4,8 +4,6 @@
     margin-right: auto;
 }
 
-
-
 .container{
     
     display: flex;
@@ -14,13 +12,15 @@
     justify-content: space-evenly;
     max-width: 1200px;
 }
-h1, h2, p{
+h1, h2, p, li   {
     text-align: center;
     font-family: 'Vast Shadow', serif;
 }
+
+ 
 .container-item{
-    width: 450px;
-    margin: 10px;
+    width: 500px;
+    margin: 20px;
     height: auto;
     text-align: center;
     
@@ -28,10 +28,100 @@ h1, h2, p{
 
 .container-item img{
     width: 100%;
-    height: 500px;
+    height: 550px;
     border-radius: 10px 0px 10px 0px;
    
 }
+
+.SteakCont{
+    
+    max-width: 1200px;
+}
+
+.SteakCont-item-1{
+    position: static;
+    width: 540px;
+    height: 206px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SteakCont-item-1 p{
+    text-align: left;
+}
+
+.SteakCont-item-1 h2{
+    text-align: center;
+}
+
+.SteakCont-item-2{
+    position: relative;
+    float: right;
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.SteakCont-item-2 img{
+    
+   max-width: 100%;
+   height: auto;
+    border-radius: 10px 0px 10px 0px;
+    
+}
+
+.SteakCont-item-3{
+    position: static;
+    width: 540px;
+    height: 206px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.SteakCont-item-3 h2{
+    text-align: center;
+}
+
+.SteakCont-item-4{
+    position: static;
+    width: 540px;
+    height: 206px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SteakCont-item-4 h2{
+    text-align: center;
+}
+
+.poga{
+    position: relative;
+    width: 540px;
+    height: 206px;
+    float: left;
+    top: 150px;
+    margin-bottom: 10px;
+}
+
+.poga img{
+    position: absolute;
+    top:0;
+    left: 32%;
+    width: 170px;
+    height: 170px;
+}
+
+li{
+    text-align: left;
+}
+
+
 
 
    
